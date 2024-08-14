@@ -329,14 +329,16 @@ footer {
     .hero_section {
         width: 60%;
         height: auto;
-        position: relative;
-        top: 0;
-        padding: 1rem;
+        margin-left: 70%;
+        margin-right: 30%;
+        padding-top: -120px;
     }
     main{
         display: flex;
         flex-direction: column;
         margin-left: 50px;
+        position: relative;
+        top: 0;
     }
     .nav-links-container {
         display: flex;
