@@ -1,138 +1,342 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-	<header>
-		<nav class="nav-container">
-			<ul class="nav-links-container">
-				<li class="nav-link"><a href="#" class="nav-link-item">Qualification</a></li>
-				
-				<li class="nav-link drop_down"><a href="#" class="nav-link-item">Experiences &nbsp;<i class="fas fa-caret-right"></i></a>	
-						<ul class="nav-links-dropdown">
-							<li class="nav-link"><a href="Experiences/experiences.html" class="nav-link-item">Teaching &  
-         research</a></li>
-							<li class="nav-link"><a href="Experiences/Administrative.html" class="nav-link-item">Administrative 
-         Experience</a></li>
-							<li class="nav-link"><a href="Experiences/Accreditation.html" class="nav-link-item">Accreditation 
-          Experience</a></li>
-						</ul>	
-				</li>
-				
-				<li class="nav-link drop_down"><a href="#" class="nav-link-item">Research & Professional Membership &nbsp;<i class="fas fa-caret-right"></i></a>
-					
-						<ul class="nav-links-dropdown">
-							<li class="nav-link"><a href="Research/research.html" class="nav-link-item">Research Award 
-</a></li>
-         <li class="nav-link"><a href="Research/project.html" class="nav-link-item">Project & 
-          consultancy 
-</a></li>
-         <li class="nav-link"><a href="Research/membership.html" class="nav-link-item">Professional 
-           membership 
-</a></li>
-						</ul>
-				
-				</li>
-				<li class="nav-link drop_down"><a href="#" class="nav-link-item">Supervision&nbsp;<i class="fas fa-caret-right"></i></a>
-                    <ul class="nav-links-dropdown">
-							<li class="nav-link"><a href="Supervision/UG PG.html" class="nav-link-item">  PhD thesis 
- 
-</a></li>
-         <li class="nav-link"><a href="Supervision/MTech supervision.html" class="nav-link-item">  M.Tech. Dissertation  
-</a></li>
-         <li class="nav-link"><a href="Supervision/btech projects.html" class="nav-link-item"> B.Tech. Projects 
-</a></li>
-<li class="nav-link"><a href="Supervision/Internship.html" class="nav-link-item">National Internship/ International 
-</a></li>
-						</ul>
-				</li>
-				<li class="nav-link drop_down"><a href="#" class="nav-link-item">Cources and Labs&nbsp;<i class="fas fa-caret-right"></i></a>
-					<ul class="nav-links-dropdown">
-							<li class="nav-link"><a href="Cources and Labs/pg.html" class="nav-link-item">PG courses  
- 
-</a></li>
-         <li class="nav-link"><a href="Cources and Labs/ug.html" class="nav-link-item">UG cources  
-</a></li>
-						</ul>
-				</li>
-				<li class="nav-link drop_down"><a href="#" class="nav-link-item">Other Activities&nbsp;<i class="fas fa-caret-right"></i></a></a>
-<ul class="nav-links-dropdown">
-	<li class="nav-link"><a href="Other Activities/PROFESSIONAL SERVICES.html" class="nav-link-item">Professional services</a></li>
-	<li class="nav-link"><a href="Other Activities/Editorial Board Member.html" class="nav-link-item">Editorial Board Member</a></li>
-	<li class="nav-link"><a href="Other Activities/references.html" class="nav-link-item">References</a></li>
-						</ul>
-				</li>
-				<li class="nav-link"><a href="PUBLICATIONS/PUBLICATION.html" class="nav-link-item">Publications</a></li>
-			</ul>
-		</nav>
-	</header>
-	<section class="hero_section">
-		<main>
-		     <div class="img">
-		     	<div class="pic"></div>
-		     	<div class="pic_heading">
-		     		<h3>Dr. SANTOSH KUMAR</h3>
-		     	</div>
-		     </div>
-		     <div class="content">
-		     	<h1>Professor</h1>
-		     	<p>
-		     		Department of Computer Science and Engineering,
-Graphic Era (Deemed to be University), 
- 		     	</p>
-		     	<address>566/6 Bell Road, Clement Town,Dehradun, UK, India-248002 </address>
-		     	<p>Cell Phone:+918126215153/+919411584022 <br>
-E-mail: amu.santosh@gmail.com/ drsantosh.cse@geu.ac.in <br>
-<b>Personal URL:</b>https://geu.ac.in/computer-science-and-engineering/faculty/dr-santosh-kumar/ <br>
-<b>Professional Memberships:</b>SM-ACM, MIEEE, LM-ISOC, LM-IAENG, LM-ACEEE <br>
-<b>Academic Identity:</b>Orcid_id (0000-0002-1008-0804), Scopus_id (57192413856), G_scholar_id(V-t8LiMAAAAJ)
-</p>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
 
-<div class="qualification">
-	<h2>QUALIFICATIONS</h2>
-	<span>
-		2012 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Ph.D.(CSE)	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	: Indian Institute of Technology, Roorkee, UK (India)<br><br>
-2007	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; M. Tech. (CSE) &nbsp;&nbsp;&nbsp;&nbsp;		: Aligarh Muslim University, Aligarh, UP (India)<br><br>
-2003&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	B.E. (IT)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			: C.C.S. University, Meerut, UP (India)
 
-	</span>
- </div>
-		     </div>
-			</main>
-	</section>
+header {
+    height: 100vh; /* Make sure the header takes the full height of the viewport */
+}
 
-<footer>
-    <div class="footer-content">
-        <div class="footer-section about">
-            <h3>About</h3>
-            <p>
-                Dr. Santosh Kumar is a Professor in the Department of Computer Science and Engineering at Graphic Era (Deemed to be University). With extensive experience in teaching, research, and professional services, Dr. Kumar is committed to advancing knowledge in the field of computer science.
-            </p>
-        </div>
-        <div class="footer-section contact">
-            <h3>Contact</h3>
-            <p>566/6 Bell Road, Clement Town, Dehradun, UK, India-248002</p>
-            <p>Phone: +918126215153 / +919411584022</p>
-            <p>Email: <a href="mailto:amu.santosh@gmail.com">amu.santosh@gmail.com</a></p>
-            <p>Email: <a href="mailto:drsantosh.cse@geu.ac.in">drsantosh.cse@geu.ac.in</a></p>
-        </div>
-        <div class="footer-section social">
-            <h3>Follow Us</h3>
-            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#" class="social-link"><i class="fab fa-researchgate"></i></a>
-        </div>
-    </div>
-    <div class="footer-bottom">
-        <p>&copy; 2024 Dr. Santosh Kumar. All rights reserved.</p>
-    </div>
-</footer>
+.nav-container {
+    width: 20%;
+    height: 100vh; /* Full height of the viewport */
+    position: fixed;
+    background: rgba(243, 244, 243, 0.09);
+    background-color: #E8EDF0;
+    padding: 2.5rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Enable vertical scroll */
+}
 
-</body>
-</html>
+.nav-links-container {
+    align-items: flex-start;
+    padding: 2px;
+}
+
+.nav-link {
+    list-style: none;
+    display: inline-block;
+    padding: 30px;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.nav-link-item {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #767676;
+}
+
+.nav-link-item:hover {
+    color: #333;
+}
+
+.drop_down {
+    position: relative;
+}
+
+.nav-links-dropdown {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 22px;
+    left: 30px;
+    margin: auto;
+    display: none;
+    background-color: #E8EDF0;
+    text-align: center;
+}
+
+.nav-links-dropdown li {
+    margin: 10px;
+}
+
+.nav-links-dropdown li a:hover {
+    color: black;
+}
+
+.drop_down:hover .nav-links-dropdown {
+    display: block;
+}
+
+.drop_down .nav-links-dropdown {
+    position: static;
+}
+
+.hero_section {
+    margin-left: 20%; /* Account for the fixed nav */
+    width: 80%;
+    height: auto;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: -660px;
+}
+main{
+    display: flex;
+    align-items: center;
+}
+.content {
+    width: 810px;
+    margin-left: 10px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.img {
+    width: 250px;
+    height: 260px;
+}
+
+.pic {
+    width: 220px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    background-image: url('SK.png');
+    background-size: cover;
+    margin: 10px;
+    margin-top: -100px;
+}
+
+.pic_heading {
+    width: 220px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.qualification h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sub_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub_content h1{
+    padding: 10px;
+    text-align: center;
+}
+table {
+    margin: 10px;
+    width: 90%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+.Accreditation_lists{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.Accreditation_lists li{
+    padding: 10px;
+}
+.research_list{
+    padding: 10px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+.subject_taught{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 80px;
+}
+.subject_taught h1{
+    margin-bottom: 10px;
+}
+.subject_lists li{
+    margin: 10px;
+}
+.external_expert{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.supervision_lists{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.supervision_lists li{
+    padding: 10px;
+}
+footer {
+    margin-left: 20%;
+    width: 80%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 1rem;
+}
+
+.footer-section h3 {
+    margin-bottom: 1rem;
+}
+
+.footer-section p,
+.footer-section a {
+    color: #ccc;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-section a:hover {
+    color: #fff;
+}
+
+.social-link {
+    color: #ccc;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+
+.social-link:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    padding: 1rem 0;
+    border-top: 1px solid #444;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1024px) {
+    .nav-container {
+        width: 25%; /* Adjust the width for medium screens */
+    }
+
+    .hero_section {
+        margin-left: 25%;
+        width: 75%;
+    }
+}
+
+@media (max-width: 768px) {
+    main{
+        position: relative;
+        top: auto;
+    }
+    .nav-container {
+        width: 20%;
+    }
+
+    .hero_section {
+        margin-left: 30%;
+        width: 80%;
+    }
+    footer{
+        margin-left: -18%;
+        width: 168%;
+        background-color: black;
+    }
+
+    .footer-content {
+        padding-left: 10%;
+        padding-right: 20%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        padding: 1rem 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    body{
+        font-size: 80%;
+    }
+    .nav-container {
+        width: 40%;
+        height: auto;
+        position: relative;
+        padding: 1rem;
+        box-shadow: none;
+    }
+        main{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+    }
+    .nav-links-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-link {
+        padding: 10px;
+    }
+    .nav-link-item{
+        font-size: 10px;
+    }
+
+    .hero_section {
+        width: 60%;
+        height: auto;
+    }
+    
+    .content, .img {
+        width: 100%;
+        height: auto;
+    }
+
+    .pic {
+        width: 100%;
+        height: 0;
+        padding-top: 56.25%; /* Maintain aspect ratio */
+    }
+
+    .pic_heading {
+        width: 100%;
+        text-align: center;
+    }
+}
