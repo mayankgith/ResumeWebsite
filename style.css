@@ -329,10 +329,10 @@ footer {
     .hero_section {
         width: 60%;
         height: auto;
-        margin-left: 70%;
-        margin-right: 30%;
         position: relative;
         top: 0;
+        left:70%;
+        right:30%;
     }
     main{
         display: flex;
