@@ -322,8 +322,6 @@ footer {
     .hero_section {
         width: 60%;
         height: auto;
-        padding-top: 210px;
-        display: block;
     }
     
     .content, .img {
