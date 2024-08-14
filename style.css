@@ -263,7 +263,7 @@ footer {
         margin-top: -100px;
     }
     .nav-container {
-        margin-top: -650px;
+        vertical-align: top;
         width: 20%;
     }
 
@@ -295,7 +295,7 @@ footer {
         font-size: 80%;
     }
     .nav-container {
-        margin-top: -650px;
+        vertical-align: top;
         width: 40%;
         height: auto;
         position: relative;
