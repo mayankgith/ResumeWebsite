@@ -6,8 +6,6 @@
     font-family: "Poppins", sans-serif;
 }
 
-/* Navigation Style - starts-Here */
-
 
 header {
     height: 100vh; /* Make sure the header takes the full height of the viewport */
@@ -118,6 +116,7 @@ main{
     background-image: url('SK.png');
     background-size: cover;
     margin: 10px;
+    margin-top: -100px;
 }
 
 .pic_heading {
@@ -261,10 +260,10 @@ footer {
 
 @media (max-width: 768px) {
     main{
-        margin-top: -100px;
+        position: relative;
+        top: auto;
     }
     .nav-container {
-        vertical-align: top;
         width: 20%;
     }
 
