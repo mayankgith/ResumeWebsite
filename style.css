@@ -305,6 +305,7 @@ footer {
         display: flex;
         flex-direction: column;
         margin-left: 50px;
+        margin-top: 0;
         position: relative;
         top: 0;
     }
@@ -323,7 +324,7 @@ footer {
 
     .hero_section {
         width: 60%;
-        margin: 10px;
+        margin-top: 0;
         height: auto;
         display: block;
         flex-direction: column;
