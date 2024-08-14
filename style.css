@@ -301,15 +301,11 @@ footer {
         padding: 1rem;
         box-shadow: none;
     }
-       header{
-          margin-top: 200px;
-    }
         main{
         display: flex;
         flex-direction: column;
         margin-left: 50px;
-        position: relative;
-        top: 0;
+        margin-top: 200px;
     }
     .nav-links-container {
         display: flex;
