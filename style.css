@@ -303,7 +303,7 @@ footer {
         box-shadow: none;
     }
     main{
-        margin-top:10px;
+        margin-top:2px;
         display: flex;
         flex-direction: column;
         margin-left: 50px;
