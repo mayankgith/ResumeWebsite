@@ -305,7 +305,6 @@ footer {
         display: flex;
         flex-direction: column;
         margin-left: 50px;
-        margin-top: 200px;
     }
     .nav-links-container {
         display: flex;
@@ -323,8 +322,8 @@ footer {
     .hero_section {
         width: 60%;
         height: auto;
+        padding-top: 210px;
         display: block;
-        flex-direction: column;
     }
     
     .content, .img {
