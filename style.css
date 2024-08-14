@@ -323,6 +323,7 @@ footer {
 
     .hero_section {
         width: 60%;
+        margin: 10px;
         height: auto;
         display: block;
         flex-direction: column;
