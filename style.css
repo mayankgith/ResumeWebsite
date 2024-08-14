@@ -85,16 +85,18 @@ header {
 }
 
 .hero_section {
-    margin-top: -650px;
     margin-left: 20%; /* Account for the fixed nav */
     width: 80%;
     height: auto;
     padding: 30px 0;
     display: flex;
     flex-direction: column;
+    position: relative;
+    margin-top: -660px;
 }
 main{
     display: flex;
+    align-items: center;
 }
 .content {
     width: 810px;
