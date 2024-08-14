@@ -307,7 +307,7 @@ footer {
         flex-direction: column;
         margin-left: 50px;
         position: relative;
-        top: -180px;
+        top: auto;
     }
     .nav-links-container {
         display: flex;
