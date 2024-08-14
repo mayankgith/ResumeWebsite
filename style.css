@@ -322,14 +322,14 @@ footer {
     .hero{
         width: 60%;
         height: auto;
-        padding-top: 210px;
+        padding-top: -210px;
     }
     .hero_section {
         width: 60%;
         height: auto;
         margin-left: 70%;
         margin-right: 30%;
-        padding-top: 120px;
+        padding-top: -120px;
     }
     main{
         display: flex;
