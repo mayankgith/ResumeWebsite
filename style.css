@@ -329,9 +329,9 @@ footer {
     .hero_section {
         width: 60%;
         height: auto;
-        margin-right: 30%;
-        margin-top: -120px;
-        margin-right:30%;
+        position: relative;
+        top: 0;
+        padding: 1rem;
     }
     main{
         display: flex;
