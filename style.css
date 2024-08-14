@@ -322,7 +322,6 @@ footer {
     }
 
     .hero_section {
-        margin:1px;
         width: 60%;
         height: auto;
         display: block;
@@ -330,6 +329,7 @@ footer {
     }
     
     .content, .img {
+        margin:5px;
         width: 100%;
         height: auto;
     }
