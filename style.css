@@ -301,8 +301,10 @@ footer {
         padding: 1rem;
         box-shadow: none;
     }
-    main{
-        padding-top: -180px;
+       header{
+          margin-top: 200px;
+    }
+        main{
         display: flex;
         flex-direction: column;
         margin-left: 50px;
