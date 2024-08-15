@@ -8,18 +8,18 @@
 
 
 header {
-    height: 100vh; /* Make sure the header takes the full height of the viewport */
+    height: 100vh; 
 }
 
 .nav-container {
     width: 20%;
-    height: 100vh; /* Full height of the viewport */
+    height: 100vh; 
     position: fixed;
     background: rgba(243, 244, 243, 0.09);
     background-color: #E8EDF0;
     padding: 2.5rem;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
-    overflow-y: auto; /* Enable vertical scroll */
+    overflow-y: auto;
 }
 
 .nav-links-container {
@@ -272,31 +272,49 @@ footer {
 }
 
 @media (max-width: 768px) {
-    main{
+    main {
         position: relative;
-        top: auto;
-    }
-    .nav-container {
-        width: 20%;
+        top: 0;
     }
 
+    .nav-container {
+        width: 30%;
+        height: auto;
+        position: relative;
+        top: 0;
+        padding: 4rem;
+        box-shadow: none;
+    }
+    .nav-link {
+        padding-left: 5px;
+    }
+    .nav-link-item{
+        font-size: 12px;
+    }
     .hero_section {
         margin-left: 30%;
-        width: 80%;
+        width: 70%; 
+        height: auto;
+        padding-top: 0;
+        padding-top: -120px;
     }
+
     .hero {
-        margin-left: 30%;
-        width: 80%;
+        margin-left: 30%; 
+        width: 70%;
+        height: auto; 
+        padding-top: 0;
     }
-    footer{
-        margin-left: -18%;
-        width: 168%;
+
+    footer {
+        margin-left: 0;
+        width: 100%;
         background-color: black;
     }
 
     .footer-content {
-        padding-left: 10%;
-        padding-right: 20%;
+        padding-left: 1rem;
+        padding-right: 1rem; 
         flex-direction: column;
         align-items: center;
     }
@@ -306,7 +324,6 @@ footer {
         text-align: center;
     }
 }
-
 @media (max-width: 480px) {
     body{
         font-size: 80%;
@@ -322,9 +339,7 @@ footer {
     .hero{
         width: 60%;
         height: auto;
-        position: relative;
-        top: 0;
-        padding: 1rem;
+        padding-top: 100px;
     }
     .hero_section {
         width: 60%;
@@ -337,14 +352,8 @@ footer {
         display: flex;
         flex-direction: column;
         margin-left: 50px;
-        position: relative;
-        top: 0;
     }
-    .nav-links-container {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
+    
     .nav-link {
         padding: 10px;
     }
@@ -360,7 +369,7 @@ footer {
     .pic {
         width: 100%;
         height: 0;
-        padding-top: 56.25%; 
+        padding-top: 56.25%; /* Maintain aspect ratio */
     }
 
     .pic_heading {
